@@ -40,11 +40,12 @@ export default function Home() {
         <main className="text-center h-[90vh] flex justify-center items-center">
           <section className="py-20">
             <h2 className="text-[10rem] text-white leading-[10rem] -tracking-wide font-semibold">
-              we make{"  "}
+              we make
               <span style={{ fontFamily: "var(--font-scotch)" }}>
-                {" "}
-                funky
-              </span>{" "}
+                &nbsp;funky
+              </span>
+              &nbsp;
+              <br />
               websites.
             </h2>
             <p className="mt-12 text-lg max-w-2xl mx-auto font-sans font-light lowercase">
@@ -52,11 +53,11 @@ export default function Home() {
             </p>
             <button
               className="mt-8 px-8 py-3 bg-white text-black text-lg font-semibold 
-              transform transition duration-300 ease-in-out
-              hover:scale-105 hover:bg-yellow-300 
-              active:scale-95 active:bg-yellow-400"
+          transform transition duration-300 ease-in-out
+          hover:scale-105 hover:bg-yellow-300 
+          active:scale-95 active:bg-yellow-400"
             >
-              Let's Get Started
+              Let&apos;s Get Started
             </button>
           </section>
         </main>
