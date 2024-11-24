@@ -39,13 +39,13 @@ export default function Home() {
 
         <main className="text-center h-[90vh] flex justify-center items-center">
           <section className="py-20">
-            <h2 className="text-[10rem] text-white leading-[10rem] -tracking-wide font-semibold">
+            <h2 className="text-4xl md:text-6xl lg:text-8xl xl:text-[10rem] text-white leading-normal lg:leading-[10rem] -tracking-wide font-semibold">
               we make
               <span style={{ fontFamily: "var(--font-scotch)" }}>
                 &nbsp;funky
               </span>
               &nbsp;
-              <br />
+              <br className="md:hidden" />
               websites.
             </h2>
             <p className="mt-12 text-lg max-w-2xl mx-auto font-sans font-light lowercase">
