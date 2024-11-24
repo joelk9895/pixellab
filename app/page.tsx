@@ -39,7 +39,7 @@ export default function Home() {
 
         <main className="text-center h-[90vh] flex justify-center items-center">
           <section className="py-20 flex flex-col items-center">
-            <h2 className="text-6xl md:text-[7rem] lg:text-[9rem] xl:text-[10rem] text-white leading-none  -tracking-wide font-semibold w-screen text-center">
+            <h2 className="text-6xl md:text-[7rem] lg:text-[9rem] xl:text-[10rem] text-white leading-none  -tracking-wide font-semibold w-[95vw] text-center">
               we make
               <span style={{ fontFamily: "var(--font-scotch)" }}>
                 &nbsp;funky
