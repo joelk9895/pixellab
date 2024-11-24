@@ -38,17 +38,16 @@ export default function Home() {
         </header>
 
         <main className="text-center h-[90vh] flex justify-center items-center">
-          <section className="py-20">
-            <h2 className="text-4xl md:text-6xl lg:text-8xl xl:text-[10rem] text-white leading-normal lg:leading-[10rem] -tracking-wide font-semibold">
+          <section className="py-20 flex flex-col items-center">
+            <h2 className="text-6xl md:text-[7rem] lg:text-[9rem] xl:text-[10rem] text-white leading-none  -tracking-wide font-semibold w-screen text-center">
               we make
               <span style={{ fontFamily: "var(--font-scotch)" }}>
                 &nbsp;funky
               </span>
-              &nbsp;
-              <br className="md:hidden" />
+              <br />
               websites.
             </h2>
-            <p className="mt-12 text-lg max-w-2xl mx-auto font-sans font-light lowercase">
+            <p className="mt-8 md:mt-12 text-base md:text-lg lg:text-xl max-w-md md:max-w-xl lg:max-w-2xl mx-auto font-sans font-light lowercase px-4 md:px-0">
               We craft unique, bold, and engaging websites.
             </p>
             <button
